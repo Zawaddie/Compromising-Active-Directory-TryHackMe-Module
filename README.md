@@ -3,7 +3,7 @@ While Learning how to exploit Windows Active Directory networks through core sec
 
 ---
 
-[compromisedAD](Images/compromiseAD2)
+[compromisedAD](Images/compromiseAD2.webp)
 
 
 ## 📂 Repository Contents:
