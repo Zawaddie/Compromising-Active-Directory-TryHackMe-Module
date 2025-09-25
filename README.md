@@ -11,11 +11,12 @@ While Learning how to exploit Windows Active Directory networks through core sec
   1. [Introduction](#introduction)
   2. [Active Directory Basics]()
   3. [Breaching Active Directory]()
-  4. [Lateral Movement and Pivoting]()
-  5. [Exploiting Active Directory]()
-  6. [Persisting Active Directory]()
-  7. [Credential Harvesting]()
-  8. [References](#-references)
+  4. [Enumerating Active Directory]()
+  5. [Lateral Movement and Pivoting]()
+  6. [Exploiting Active Directory]()
+  7. [Persisting Active Directory]()
+  8. [Credential Harvesting]()
+  9. [References](#-references)
 
 ---
 
@@ -28,6 +29,7 @@ The six rooms in the module also gives a hands on practice enviroment to learn t
 **Rooms:**
 - Active Directory Basics
 - Breaching Active Directory
+- Enumerating Active Directory
 - Lateral Movement and Pivoting
 - Exploiting Active Directory
 - Persisting Active Directory
