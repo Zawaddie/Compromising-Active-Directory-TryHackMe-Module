@@ -1,4 +1,4 @@
-# Compromising-Active-Directory-TryHackMe-Module
+# Compromising-Active-Directory
 While Learning how to exploit Windows Active Directory networks through core security issues stemming from misconfigurations, I have been taking the [TryHackMe](https://tryhackme.com/) module: [Compromising Active Directory](https://tryhackme.com/module/hacking-active-directory). This Repository servers the purpose of Logging my progress in the six practice Rooms.
 
 ---
