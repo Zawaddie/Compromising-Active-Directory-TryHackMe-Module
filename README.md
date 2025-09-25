@@ -1,10 +1,11 @@
 # Compromising-Active-Directory-TryHackMe-Module
-While Learning how to exploit Active Directory networks through core security issues stemming from misconfigurations, I have been taking the TryHackMe module: Compromising Active Directory. This Repository servers the purpose of Logging my progress in the six practice Rooms.
+While Learning how to exploit Windows Active Directory networks through core security issues stemming from misconfigurations, I have been taking the TryHackMe module: Compromising Active Directory. This Repository servers the purpose of Logging my progress in the six practice Rooms.
 
+---
 
 ## 📂 Repository Contents:
 
-  1. [Introduction]#introduction)
+  1. [Introduction](#introduction)
   2. [Active Directory Basics]()
   3. [Breaching Active Directory]()
   4. [Lateral Movement and Pivoting]()
@@ -12,6 +13,8 @@ While Learning how to exploit Active Directory networks through core security is
   6. [Persing Active Directory]()
   7. [Credential Harvesting]()
   8. [References](#-references)
+
+---
 
 ## 🔥Introduction
 
@@ -33,5 +36,6 @@ The main advantages of having a configured Windows domain in an Enterprise are:
 
 Approximately 90% of the Global Fortune 1000 companies use Active Directory (AD).  Since AD is used for Identity and Access Management of the entire organisation, it is a critical componet in the organisations's infrastructure, making it a very likely target for attackers. This module will teach you the basics of AD and take you on the typical journey of compromising AD during a red team. You will learn to breach AD, enumerate AD, exploit AD, and finally deploy persistence through AD.
 
+---
 
   ## References
