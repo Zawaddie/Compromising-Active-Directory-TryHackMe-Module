@@ -1,5 +1,15 @@
 
 # [1] Active Directory Basics
+While on this room, I assumed the role of the **new IT admin at THM Inc.**  As a first task, I have been asked to review the current domain **"THM.local"** and do some additional configurations. I have been given administrative credentials over a pre-configured Domain Controller (DC) to do the tasks.
+
+To connect to it via RDP, the following credentials are valid:
+
+**Username	Administrator** >> use **THM\Administrator** as the username to specify you want to log in using the user Administrator on the THM domain.
+
+**Password	Password321**
+
+**IP (RDP)	MACHINE_IP**
+
 
 ## Task 1:
 A brief explanation that gave me a broad understanding of Microsoft's Active Directory is and why it is important.
@@ -28,8 +38,7 @@ Indeed, for a corporate with many employees with each with a work computer, it w
 
 The computers and users are organized into a group called a **Windows domain** which is a group of users and computers under the administration of a given organisation. The administration of this group is centralised in a single repository known as an **Active Directory (AD)** and controlled by a server called a **Domain Controller (DC).**
 
-The Domain Controller, a server running the Active Directory.
-It handles, **Login authentication, Security checks** and **Updating of the AD database.**
+The Domain Controller, a server running the Active Directory, handles, **Login authentication, Security checks** and **Updating of the AD database.**
 
 #### Components on an Active Directory
 
@@ -74,4 +83,5 @@ Task 8:
 Task 9:
 
 ---
+
 
