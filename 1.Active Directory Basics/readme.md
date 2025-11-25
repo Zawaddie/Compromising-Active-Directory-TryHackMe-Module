@@ -4,11 +4,11 @@ While on this room, I assumed the role of the **new IT admin at THM Inc.**  As a
 
 To connect to it via RDP, the following credentials are valid:
 
-**Username	Administrator** >> use **THM\Administrator** as the username to specify you want to log in using the user Administrator on the THM domain.
+**Username: THM\Administrator** 
 
 **Password	Password321**
 
-**IP (RDP)	MACHINE_IP**
+**IP (RDP):	<MACHINE_IP>**
 
 
 ## Task 1:
@@ -40,13 +40,14 @@ The computers and users are organized into a group called a **Windows domain** w
 
 The Domain Controller, a server running the Active Directory, handles, **Login authentication, Security checks** and **Updating of the AD database.**
 
-#### Components on an Active Directory
+#### Components on a Windows Domain
+At the core of a windows Domain is the AD and the DC. Within the AD are the **Objects(Users and Groups), Organizational Units (OUs)** and **Group Policies (GPOs).**
 
 ![ADcomponents](Images/ADBasics/ADcomponent.png)
 
-- **Users and Groups:** Where Users are individual accounts and Groups are a collection of users that helps in simplifying permissions.
-- **Organizational Units (OUs):** These are Folders in AD used to organize users, computers, and policies.
-- **Group Policy (GPO):** Rules that control what users and computers can do, such as: **Password requirements, Blocking USB devices, Installing software automatically** , etc.
+The main advantages of having a configured Windows domain:
+- **Centralised identity management:** All users across the network can be configured from the AD with minimum effort.
+- **Managing security policies:** You can configure security policies directly from the AD and apply them to users and computers across the network as needed.
 
 ```code
 In a Windows domain, credentials are stored in a centralised repository called:
@@ -59,6 +60,36 @@ The server in charge of running the Active Directory services is called:
 ---
 
 ## Task 3:
+
+The **Active Directory Domain Service (AD DS)** is the core of any Windows Domain. It acts as a catalogue that stores information about network **objects** such as users, groups, machines, printers, and shared resources. These objects are known as **security principals,** meaning they can authenticate and access resources.
+
+To manage AD objects, log in to the Domain Controller and open Active Directory Users and Computers from the Start menu of a Domain Controller.
+
+![ADstartMenu](Images/ADBasics/ADstartMenu.png)
+
+
+Organizational Units (OUs) are folders in AD used to organize objects and apply policies to sets of users or computers. OUs help structure departments; for example, the AD environment in this room includes a main THM OU with child OUs for IT, Management, Marketing, R&D, and Sales. Additional OUs, such as Students, can be created as needed. 
+
+![ADObjects](Images/ADBasics/ADObjects.png)
+
+If any OUs is opened, we see the users they contain and you can create, delete, modify objects, or reset user passwords.
+
+![ITOU](Images/ADBasics/ITOU.png)
+users within the IT OU.
+
+Windows also creates default containers(parent OUs) such as:
+- **Builtin** - default groups for any Windows host
+- **Computers** - machines joining the domain by default
+- **Domain Controllers** - contains the DCs
+- **Users** - default users and groups
+- **Managed Service Accounts** - service-related accounts
+
+Groups simplify permission management by grouping users or machines.
+- Security groups control access to resources and can contain users, machines, or even other groups.
+- OUs apply policies, while groups grant permissions.
+
+Common default security groups include:
+ **Domain Users, Domain Admins, Server Operators, Backup Operators, Domain Computers,** and **Domain Controllers.**
 
 ---
 
@@ -83,5 +114,6 @@ Task 8:
 Task 9:
 
 ---
+
 
 
