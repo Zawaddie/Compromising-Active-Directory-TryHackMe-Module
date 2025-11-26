@@ -51,10 +51,10 @@ The main advantages of having a configured Windows domain:
 
 ```code
 In a Windows domain, credentials are stored in a centralised repository called:
-***Active Directory**
+Active Directory
 
 The server in charge of running the Active Directory services is called:
-***Domain Controller***
+Domain Controller
 ```
 
 ---
@@ -91,6 +91,16 @@ Groups simplify permission management by grouping users or machines.
 Common default security groups include:
  **Domain Users, Domain Admins, Server Operators, Backup Operators, Domain Computers,** and **Domain Controllers.**
 
+```plain text
+Which group normally administrates all computers and resources in a domain?
+Domain Admin
+
+What would be the name of the machine account associated with a machine named TOM-PC?
+TOM-PC$
+
+Suppose our company creates a new department for Quality Assurance. What type of containers should we use to group all Quality Assurance users so that policies can be applied consistently to them?
+Organizational Units
+```
 ---
 
 ## Task 4:
@@ -114,6 +124,7 @@ Task 8:
 Task 9:
 
 ---
+
 
 
 
